@@ -1,0 +1,68 @@
+HTML là là ngôn ngữ đánh dấu được sử dụng để tạo và cấu trúc các trang web. 
+ HTML dùng các thẻ (tags) để định nghĩa các phần tử khác nhau của một trang web.
+
+CSS là ngôn ngữ định dạng trang web
+
+ JavaScript cho phép bạn thực hiện các thao tác như thay đổi nội dung của trang web, xử lý các sự kiện người dùng (như nhấp chuột hoặc nhập dữ liệu), và tạo các hiệu ứng động mà không cần tải lại trang.(js)
+
+<!DOCTYPE html> là một khai báo doctype (Document Type Declaration) trong HTML. Nó được sử dụng để thông báo cho trình duyệt web biết rằng tài liệu này tuân theo tiêu chuẩn HTML5. 
+<html lang="en"> cặp thẻ <html></html> đc sd để  định nghĩa phần thân tài liệu HTML (trong file html chỉ có một cặp thẻ này ), thuộc tính lang để chỉ nn đc viết của website 
+  <head>
+    <meta charset="UTF-8" /> hỗ trợ các ký tự ngoài t.a là: việt, hàn, trung.....
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> hiện thị kích thước bằng màn hình
+    <title>Document</title> tiêu đề trình duyệt 
+  </head>
+  <body></body> là một ptu của HTML , đc sd để chứa nd chính của trang web
+</html>
+
+<!DOCTYPE html> 
+
+
+----------------------------------------------
+gợi ý
+Lorem9 : tự động sinh ra 9 chữ
+---------------------------------------------
+* CÁCH GỌI TRÌNH DUYỆT ngay trên 
+    - nhấn F1-> Show like ...
+--------------------------------------------
+
+***Các thẻ phổ biến trong html****
+    Thẻ h : sd để đn tiêu đề của trang web  
+            h1->h6:từ to đến nhỏ và từ quan trọng đến ít qt
+    thẻ p : paragragh chứa các đoạn văn bản
+    thẻ b : bold - in đậm (dùng strong thay thế thể hiện nd qtrong)
+    thẻ i : italic - in nghiêng (dùng em-emphasis để nhấn mạnh nd)
+    thẻ u : underline - gạch chân
+    thẻ a : anchor - gắn kèm đường dẫn , thuộc tính targer ="_blank" mở tab mới
+          <a href = "tel:012456789"> 0123456789</a> 
+          chuyển hướng đến 1 ứng dụng có thể gọi
+          <a href = "tel:012456789"> Gọi cho em nhé </a> 
+
+          chuyển hướng đến ứng dụng gmail 
+          <a href = "mailto:tuhoc@gmail.com">tuhoc@gmail.com</a> 
+          <a href = "mailto:tuhoc@gmail.com">gửi email cho tôi</a>
+              ........ 
+
+    thẻ img : image - hình ảnh , alt : tên thay thế khi lỗi, hỗ trợ ptich web
+              đ dẫn tương đối: ./tệp (nó chỉ nhìn tệp cùng cấp hoặc cấp dưới/dưới nữa)
+                              ../tệp (nhảy ra 1 cấp)
+              
+              đ dẫn tuyệt đối : gốc/con/cháu 
+    thẻ ul : - unordered list : danh sách ko có thứ tự 
+    thẻ ol : - ordered list : danh sách có thứ tự <ol type = "1"> thuộc tính hthi thứ tự
+    thẻ li : - list item : là thẻ con trực tiếp của ul, ol
+    ul>li*5{noidung$}
+
+*GỢI Ý TL*
+    gõ trình duyệt : mdn -> Ro...> HTML > HTML e...
+                            ctrl+f tìm thẻ cần 
+    Alt + Shift + mũi tên xuống để coppy nhanh
+    Alt + kích chuột để chọn nhiều dòng
+    Alt + w để thêm tab p 
+    Unplash.com trang web ảnh
+  Diffchecker trang web tìm khác biệt giữa 2 code
+  Emmet - gõ tẳt
+
+
+thẻ br chỉ ngắt dòng , ko phá vỡ đoạn văn, đoạn thơ(thẻ p là bao 1 đoạn văn)
+thẻ hr sinh ra dòng kẻ ngang
